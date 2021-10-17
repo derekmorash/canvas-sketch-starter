@@ -17,7 +17,7 @@ Streaming isn't very stable, large resolutions or weird dimensions may fail. Exp
 ffmpeg command to compile sequence of png files to mp4 file:
 
 ```
- ffmpeg -r 30 -f image2 -s -i %03d.png -vcodec libx264 -crf 24 -pix_fmt yuv420p output.mp4
+ ffmpeg -r 30 -f image2 -s 1080x1080 -i %03d.png -vcodec libx264 -crf 24 -pix_fmt yuv420p output.mp4
 ```
 
 - `-r 30` is frame rate
