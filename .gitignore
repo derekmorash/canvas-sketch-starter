@@ -1,0 +1,5 @@
+node_modules/
+npm-debug.log
+**/*.png
+**/*.mp4
+.DS_Store
